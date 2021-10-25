@@ -27,7 +27,8 @@ author:
 normative:
   BCP14: RFC8174
   RFC8995:
-  I-D.ietf-rats-eat:
+  I-D.ietf-rats-eat: eat
+  I-D.ietf-rats-architecture:
 
 informative:
   RFC7030:
@@ -47,6 +48,21 @@ Source for this draft and an issue tracker can be found at <https://github.com/m
 --- middle
 
 # Introduction
+
+{{RFC8995}} describes the Bootstrapping Remote Secure Key Infrastructure, or BRSKI onboarding mechnism.
+An important consideration that a many organizations have is to assess the security posture of a device before allowing the device to be onboarding.
+
+{{I-D.ietf-rats-architecture}} describes a number of Topological Patterns, including the Passport Model and the Background-Check Model.
+This document describes a background-check model using Entity Attestation Tokens ({{-eat}}) carried in the BRSKI voucher-request and voucher.
+
+In this model, the Attester is the BRSKI pledge.
+The Relying Party is the BRSKI Registrar.
+The Verifying is the BRSKI Manufacturer Authorized Signing Authority (MASA).
+
+The MASA is loaded through proprietary methods by the manufacturing with Endorsements, References Values and Appraisal Policy for Evidence.
+
+Evidence is carried by EAT through the Registrar using the Pledge Voucher Request (PVR).
+The voucher that results carries the results of the Verifier back to the Registrar, who, acting for the onboarding Enterprise is the Relying Party.
 
 {::bolerplate bcp14-tagged}
 
