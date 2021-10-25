@@ -1,7 +1,7 @@
 ---
 title: Using of Entity Attestation Token in the Bootstrapping Remote Secure Key Infrastructure
 abbrev: brski-food
-docname: draft-richardson-anima-rats-brski-food
+docname: draft-richardson-anima-rats-brski-food-00
 
 # stand_alone: true
 
@@ -64,7 +64,7 @@ The MASA is loaded through proprietary methods by the manufacturing with Endorse
 Evidence is carried by EAT through the Registrar using the Pledge Voucher Request (PVR).
 The voucher that results carries the results of the Verifier back to the Registrar, who, acting for the onboarding Enterprise is the Relying Party.
 
-{::bolerplate bcp14-tagged}
+{::bolerplate bcp14}
 
 # Privacy Considerations
 
