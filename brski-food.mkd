@@ -1,0 +1,71 @@
+---
+title: Using of Entity Attestation Token in the Bootstrapping Remote Secure Key Infrastructure
+abbrev: brski-food
+docname: draft-richardson-anima-rats-brski-food
+
+# stand_alone: true
+
+ipr: trust200902
+area: Internet
+wg: RATS Working Group
+kw: Internet-Draft
+cat: std
+
+coding: utf-8
+pi:    # can use array (if all yes) or hash here
+  toc: yes
+  sortrefs:   # defaults to yes
+  symrefs: yes
+
+author:
+
+- ins: M. Richardson
+  name: Michael Richardson
+  org: Sandelman Software Works
+  email: mcr+ietf@sandelman.ca
+
+normative:
+  BCP14: RFC8174
+  RFC8995:
+  I-D.ietf-rats-eat:
+
+informative:
+  RFC7030:
+
+--- abstract
+
+This document explains to transport an Entity Attestation Token in the Bootstrapping Remote Secure Key Infrastructure.
+This allows an enterprise to verify the security posture of a device before onboarding the device into the Enterprises' network.
+
+--- to_be_removed_note_Discussion_Venues
+
+Discussion of this document takes place on the
+RATS and ANIMA Working Group mailing lists: anima@ietf.org, and rats@ietf.org.
+
+Source for this draft and an issue tracker can be found at <https://github.com/mcr/brski-food>.
+
+--- middle
+
+# Introduction
+
+{::bolerplate bcp14-tagged}
+
+# Privacy Considerations
+
+YYY
+
+# Security Considerations
+
+ZZZ
+
+# IANA Considerations
+
+# Acknowledgements
+
+Hello.
+
+# Changelog
+
+
+--- back
+

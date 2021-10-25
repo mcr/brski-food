@@ -1,4 +1,4 @@
-DRAFT:=draft
+DRAFT:=brski-food
 VERSION:=$(shell ./getver ${DRAFT}.mkd )
 EXAMPLES=
 
